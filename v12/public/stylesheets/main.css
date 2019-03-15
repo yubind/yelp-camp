@@ -1,5 +1,45 @@
 .navbar-default {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+}
+
+div.container-fluid {
+    padding: 0 0 0 3.5rem;
+}
+
+i.fas.fa-campground {
+   color: #B6C649; 
+   padding: 0 .5rem;
+}
+
+.navbar-header {
+    padding: 1.5rem;
+}
+
+a.navbar-brand {
+    font-size: 2.5rem;
+}
+
+ul.nav.navbar-nav.navbar-right {
     background-color: #2C4251;
+}
+
+.navbar-default .navbar-nav>li {
+    padding: 1.5rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #B6C649;
+}
+
+.navbar-default .navbar-nav>li.user-login>a {
+    background-color: #EAF0CE;
+    color: #777;
 }
 
 .thumbnail img {
