@@ -2,6 +2,15 @@
     width: 100%;
     background-color: #fff;
     border: none;
+    margin: 0;
+}
+
+header.jumbotron {
+    background-color: #BBBE64;
+}
+
+.btn.btn-primary {
+    background-color: #2C4251;
 }
 
 div.container-fluid {

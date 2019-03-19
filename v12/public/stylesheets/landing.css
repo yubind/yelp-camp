@@ -3,6 +3,10 @@ body {
     font-family: sans-serif;
 }
 
+a, a:focus, a:visited {
+  color: #fff;
+}
+
 #landing-header {
     z-index: 1;
     position: relative;
@@ -26,7 +30,6 @@ body {
 
 .btn-group-lg>.btn, .btn-lg {
   margin-top: 2rem;
-  color: #fff;
   background-color: #2C4251;
 }
 
