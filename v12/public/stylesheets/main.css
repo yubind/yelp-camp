@@ -1,16 +1,27 @@
-.navbar-default {
+body {
+    font-family: 'Sniglet', cursive;
+}
+
+.navbar {
     width: 100%;
     background-color: #fff;
     border: none;
     margin: 0;
 }
 
-header.jumbotron {
-    background-color: #BBBE64;
+.jumbotron {
+    background-color: #d8da9f;
+}
+
+.jumbotron p {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .btn.btn-primary {
+    border: none;
+    padding: 1rem 2rem;
     background-color: #2C4251;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 div.container-fluid {
@@ -18,7 +29,7 @@ div.container-fluid {
 }
 
 i.fas.fa-campground {
-   color: #B6C649; 
+   color: #f5af55; 
    padding: 0 .5rem;
 }
 
@@ -40,10 +51,16 @@ ul.nav.navbar-nav.navbar-right {
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
-    color: #B6C649;
+.navbar-default .navbar-nav>li:hover {
+    background-color: #d8da9f;
+}
+
+.navbar-default .navbar-nav>li.user-login {
+    background-color: #2C4251;
 }
 
 .navbar-default .navbar-nav>li.user-login>a {
