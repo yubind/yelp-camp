@@ -17,15 +17,15 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <% if(!currentUser){ %>
-                    <li><a href="/campgrounds">Home</a></li>
-                    <li><a href="/about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/campgrounds">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
                     <li class="user-login"><a href="/login">Login</a></li>
-                    <li><a href="/register">Sign Up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/register">Sign Up</a></li>
                 <% } else { %>
-                    <li><a href="/campgrounds">Home</a></li>
-                    <li><a href="/about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/campgrounds">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
                     <li class="user-login"><a href="#">Signed In As <%= currentUser.username %></a></li>
-                    <li><a href="/logout">Logout</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
                 <% } %>
             </ul>
         </div>

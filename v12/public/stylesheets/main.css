@@ -1,14 +1,53 @@
+/*general*/
 body {
     font-family: 'Sniglet', cursive;
 }
 
-.navbar {
+li>a, li>a:active, li>a:visited {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*navbar*/
+nav.navbar {
     width: 100%;
     background-color: #fff;
     border: none;
     margin: 0;
 }
 
+.navbar-default .navbar-nav.navbar-right {
+    background-color: #2C4251;
+}
+
+.navbar-header {
+    padding: 1.5rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+}
+
+i.fas.fa-campground {
+   color: #f5af55; 
+   padding: 0 .5rem;
+}
+
+.navbar-nav>li {
+    padding: 1.5rem;
+    color: #fff;
+}
+
+.navbar-nav>li:hover {
+    background-color: #4a5b67;
+}
+
+.navbar-default .navbar-nav>.nav-item>.nav-link {
+    color: #fff;
+}
+
+/*jumbotron*/
 .jumbotron {
     background-color: #d8da9f;
 }
@@ -24,40 +63,19 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.btn.btn-primary:hover {
+    padding: 1rem 2rem;
+    background-color: #4a5b67;
+}
+
 div.container-fluid {
     padding: 0 0 0 3.5rem;
 }
 
-i.fas.fa-campground {
-   color: #f5af55; 
-   padding: 0 .5rem;
-}
 
-.navbar-header {
-    padding: 1.5rem;
-}
 
-a.navbar-brand {
-    font-size: 2.5rem;
-}
 
-ul.nav.navbar-nav.navbar-right {
-    background-color: #2C4251;
-}
 
-.navbar-default .navbar-nav>li {
-    padding: 1.5rem;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #fff;
-    font-size: 1.5rem;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.navbar-default .navbar-nav>li:hover {
-    background-color: #d8da9f;
-}
 
 .navbar-default .navbar-nav>li.user-login {
     background-color: #2C4251;
@@ -65,7 +83,6 @@ ul.nav.navbar-nav.navbar-right {
 
 .navbar-default .navbar-nav>li.user-login>a {
     background-color: #EAF0CE;
-    color: #777;
 }
 
 .thumbnail img {
