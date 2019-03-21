@@ -47,6 +47,13 @@ i.fas.fa-campground {
     color: #fff;
 }
 
+.navbar-default .navbar-nav>li.user-login {
+    background-color: #2C4251;
+}
+
+.navbar-default .navbar-nav>li.user-login>a {
+    background-color: #EAF0CE;
+}
 /*jumbotron*/
 .jumbotron {
     background-color: #d8da9f;
@@ -72,19 +79,7 @@ div.container-fluid {
     padding: 0 0 0 3.5rem;
 }
 
-
-
-
-
-
-.navbar-default .navbar-nav>li.user-login {
-    background-color: #2C4251;
-}
-
-.navbar-default .navbar-nav>li.user-login>a {
-    background-color: #EAF0CE;
-}
-
+/*thumbnail*/
 .thumbnail img {
     width: 100%;
 }
@@ -100,3 +95,9 @@ div.container-fluid {
 .delete-form {
     display: inline;
 }
+
+/*footer*/
+footer div.container {
+    display: flex;
+}
+
