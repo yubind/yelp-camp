@@ -7,10 +7,19 @@ li {
     list-style: none;
 }
 
+h4 {
+    font-weight: bold;
+}
+
 li>a, li>a:active, li>a:visited {
     color: #fff;
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
+}
+
+li>a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 /*navbar*/
@@ -60,11 +69,14 @@ i.fas.fa-campground {
 }
 /*jumbotron*/
 .jumbotron {
-    background-color: #d8da9f;
+    background-color: #c1d0bf;
+    text-align: center;
+    padding-top: 7rem;
 }
 
 .jumbotron p {
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 4rem;
 }
 
 .btn.btn-primary {
@@ -105,7 +117,7 @@ footer {
     color: #fff;
     background-color: #2C4251;
     font-family: 'Nunito', sans-serif;
-    padding: 4rem .5rem;
+    padding: 6rem .5rem 4rem;
 }
 
 footer div.container {
@@ -130,7 +142,47 @@ footer div.container.footer-1 {
     padding: 0;
 }
 
-.fab {
-    font-size: 2rem;
-    margin: 1rem;
+li.footer-item {
+    margin: 1.5rem;
+}
+
+a.footer-link {
+    padding: .6rem;
+    transition: all .2s;
+}
+
+a.footer-link:hover {
+    color: #9c9c9c;
+}
+
+.btn-group .footer-btn {
+    padding: 1.5rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin: .3rem;
+    transition: all .2s;
+}
+
+.btn-group .footer-btn .footer-icon {
+    color: #fff;
+}
+
+.btn-group .footer-btn.twitter {
+    background-color: #1da1f2;
+}
+
+.btn-group .footer-btn.facebook {
+    background-color: #3b5998;
+}
+
+.btn-group .footer-btn.instagram {
+    background-color: #c13584;
+}
+
+.btn-group .footer-btn.pinterest {
+    background-color: #bd081c;
+}
+
+.btn-group .footer-btn:hover {
+    background-color: #a2a2a2;
 }
