@@ -11,13 +11,16 @@ h4 {
     font-weight: bold;
 }
 
-li>a, li>a:active, li>a:visited {
-    color: #fff;
-    font-size: 1.5rem;
-    font-family: 'Raleway', sans-serif;
+h5 {
+    margin-bottom: 3rem;
 }
 
-li>a:hover {
+a, a:active, a:visited {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+a:hover {
     color: #fff;
     text-decoration: none;
 }
@@ -120,6 +123,9 @@ footer {
     padding: 6rem .5rem 4rem;
 }
 
+footer a:hover {
+    color: #9c9c9c;
+}
 footer div.container {
     display: flex;
 }
@@ -149,10 +155,6 @@ li.footer-item {
 a.footer-link {
     padding: .6rem;
     transition: all .2s;
-}
-
-a.footer-link:hover {
-    color: #9c9c9c;
 }
 
 .btn-group .footer-btn {
@@ -185,4 +187,10 @@ a.footer-link:hover {
 
 .btn-group .footer-btn:hover {
     background-color: #a2a2a2;
+}
+
+.app-btn {
+    border: solid 2px #fff;
+    padding: 1rem;
+    margin: .5rem;
 }
