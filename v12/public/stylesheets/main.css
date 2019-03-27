@@ -211,3 +211,22 @@ a.footer-link {
     color: #fff;
     text-shadow: #000 1px 0 10px;
 }
+
+.founder img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about-us {
+    display: flex;
+    padding: 4rem 6rem;
+}
+
+.about-us .about-info {
+    flex: 70 0 0;
+}
+
+.about-us .about-contact {
+    flex: 30 0 0;
+    padding: 2rem;
+}
