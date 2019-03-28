@@ -7,7 +7,7 @@ li {
     list-style: none;
 }
 
-h4 {
+h3, h4 {
     font-weight: bold;
 }
 
@@ -15,7 +15,12 @@ h5 {
     margin-bottom: 3rem;
 }
 
-a, a:active, a:visited {
+p {
+    font-size: 1.7rem;
+    padding: .5rem;
+}
+
+a, a:visited {
     color: #fff;
     font-size: 1.5rem;
 }
@@ -94,10 +99,6 @@ i.fas.fa-campground {
     background-color: #4a5b67;
 }
 
-div.container-fluid {
-    padding: 0 0 0 3.5rem;
-}
-
 /*thumbnail*/
 .thumbnail img {
     width: 100%;
@@ -126,6 +127,7 @@ footer {
 footer a:hover {
     color: #9c9c9c;
 }
+
 footer div.container {
     display: flex;
 }
@@ -135,7 +137,7 @@ footer div.container {
       text-align: center;
 }
 
-footer div.container.footer-1 {
+footer .footer-1 {
     display: flex;
     flex-direction: column;
 }
@@ -212,9 +214,22 @@ a.footer-link {
     text-shadow: #000 1px 0 10px;
 }
 
+.founder {
+    display: flex;
+    margin: 3rem 1rem;
+}
+
 .founder img {
     height: 200px;
     border-radius: 50%;
+}
+
+.founder-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
 }
 
 .about-us {
@@ -228,5 +243,32 @@ a.footer-link {
 
 .about-us .about-contact {
     flex: 30 0 0;
-    padding: 2rem;
+    padding: 2.5rem;
 }
+
+.about-logo {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-btn-group {
+    margin-top: 2rem;
+}
+
+.contact-btn-group .app-btn {
+    background-color: #2C4251;
+}
+
+.contact-work {
+    margin-top: 6rem;
+}
+
+.contact-work p {
+    margin-bottom: 2rem;
+}
+
+.contact-email {
+    background-color: #f5af55;
+    padding: 1.2rem;
+}
+
